@@ -22,6 +22,21 @@ public class RobotColorChooser {
 		
 	    //2. Make the robot draw a shape (this will take more than one line of code)
 
+		
+		Robot walle = new Robot();
+		
+		String color = JOptionPane.showInputDialog("What color would you like the robot to draw?");
+		
+		if (color.Equals("yellow")) {
+			
+		walle.Color.black;
+		
+		}
+		if (color.Equals("blue")) {
+			
+		PenColor(#f4ee42);
+		
+		}
 
 	}
 }
