@@ -27,5 +27,19 @@ package modulo;
 
 public class FizzBuzz {
 
+	public static void main(String[] args) {
+		for (int i = 1; i <21; i++) {
+			if (i == 3 || i == 6 || i == 9 || i == 12 || i == 18) {
+				System.out.println("fizz");
+			}
+			if (i == 5 || i == 10 || i == 20) {
+				System.out.println("buzz");
+			}
+			else {
+				System.out.println(i);
+			}
+		}
+	}
+
 }
 
